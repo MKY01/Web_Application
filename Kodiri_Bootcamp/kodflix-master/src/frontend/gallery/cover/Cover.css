@@ -1,0 +1,21 @@
+.cover img {
+    height: 100%;
+    width: 100%;
+}
+
+.cover-overlay {
+    transition: bottom 0.5s ease;
+    bottom: -100%;
+    position: absolute;
+    opacity: .8;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cover:hover .cover-overlay {
+    bottom: 0;
+}

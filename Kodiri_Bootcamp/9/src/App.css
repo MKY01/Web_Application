@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.menu-items {
+    right: 0;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgb(209, 209, 181);
+}
+.menu-items .item {
+    padding: 20px;
+    border: 1px solid blue;
+}

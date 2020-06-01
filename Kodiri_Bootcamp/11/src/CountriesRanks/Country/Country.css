@@ -1,0 +1,15 @@
+.Country {
+    border: 1px solid blue;
+    display: flex;
+}
+.Country > * {
+    padding: 20px;
+}
+.Country .name {
+    flex-grow: 1;
+    text-align: left;
+}
+.Country .position {
+    background-color: blue;
+    color: white;
+}

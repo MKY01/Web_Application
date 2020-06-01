@@ -1,0 +1,23 @@
+.Menu-links {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    background-color: red;
+    height: 100vh;
+    padding-top: 50px;
+    box-sizing: border-box;
+    transition: right 1s linear;
+}
+.Menu-links.visible {
+   right: 0;
+}
+.Menu-links .item {
+    padding: 20px;
+}
+.Menu-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    z-index: 1;
+}

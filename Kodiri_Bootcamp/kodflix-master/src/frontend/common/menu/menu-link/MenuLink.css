@@ -1,0 +1,15 @@
+.menu-link {
+    transition: background-color 0.5s ease;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.menu-link:hover {
+    background-color: #242020;
+}
+
+.menu-link img {
+    width: 48px;
+    margin-right: 15px;
+}

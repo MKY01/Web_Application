@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+.slide {
+  padding: 15px;
+  height: 100vh;
+  color: white;
+}
+.slide1 {
+  background-color: red;
+}
+.slide2 {
+  background-color: violet;
+}
+.slide3 {
+  background-color: blue;
+}

@@ -1,0 +1,50 @@
+$header-footer-bckColor: brown;
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .header {
+    display: flex;
+    background-color: $header-footer-bckColor;
+    color: white;
+    .logo {
+      flex: 1;
+    }
+    .title {
+      flex: 1;
+    }
+    .links {
+      flex: 1;
+      display: flex;
+      a {
+        flex: 1;
+        color: yellow;
+        text-decoration: none;
+      }
+    }
+  }
+  .main {
+    flex-grow: 1;
+    display: flex;
+    background-color: yellow;
+    aside {
+      flex: 1;
+      background-color: yellowgreen;
+    }
+    article {
+      flex: 2;
+    }
+  }
+  .footer {
+    background-color: $header-footer-bckColor;
+    .links{
+      display: flex;
+      a {
+        flex: 1;
+        color: pink;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.play {
+    overflow: hidden;
+}
+
+.play iframe {
+    border: none;
+}

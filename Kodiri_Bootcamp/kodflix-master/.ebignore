@@ -1,0 +1,15 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+src/frontend/
+node_modules/
+.env
+.git
+.gradle
+android
+.gitignore
+npm-debug.log
+npm-debug.log.*
+package-lock.json
+README.md

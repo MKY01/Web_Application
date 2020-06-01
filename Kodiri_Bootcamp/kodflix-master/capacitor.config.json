@@ -1,0 +1,8 @@
+{
+  "appId": "com.kodflix.app",
+  "appName": "kodflix",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

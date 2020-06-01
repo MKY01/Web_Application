@@ -1,0 +1,31 @@
+@import './Menu-panel.css';
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: auto;
+}
+
+.menu.is-visible {
+    width: 100%;
+}
+
+.menu-toggle {
+    background-color: transparent;
+    position: absolute;
+    border: none;
+    width: 64px;
+    padding-top: 10px;
+    padding-left: 10px;
+    left: -100px;
+    z-index: 2;
+    outline: none;
+    animation: show-menu-button 0.5s ease 0.3s 1 forwards;
+}
+
+@keyframes show-menu-button {
+    0%   { left: -100px; transform:rotate(0deg); }
+    100% { left: 0px; transform:rotate(360deg); }
+}
